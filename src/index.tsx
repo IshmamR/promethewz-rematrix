@@ -1,4 +1,4 @@
-import React, { useEffect, useRef, useCallback } from 'react';
+import React, { useEffect, useRef, useCallback } from "react";
 
 class CoolChar {
   x: number;
@@ -20,7 +20,7 @@ class CoolChar {
     this.x = x;
     this.y = y;
     this.fontSize = fontSize;
-    this.text = '';
+    this.text = "";
     this.characters = characters;
     this.canvasWidth = canvasWidth;
     this.canvasHeight = canvasHeight;
@@ -88,7 +88,7 @@ class Effect {
 }
 
 const myChars =
-  'アァカサタナハマヤャラワガザダバパイィキシチニヒミリヰギジヂビピウゥクスツヌフムユュルグズブヅプエェケセテネヘメレヱゲゼデベペオォコソトノホモヨョロヲゴゾドボポヴッン0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ';
+  "アァカサタナハマヤャラワガザダバパイィキシチニヒミリヰギジヂビピウゥクスツヌフムユュルグズブヅプエェケセテネヘメレヱゲゼデベペオォコソトノホモヨョロヲゴゾドボポヴッン0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 
 interface IMyProps extends React.HTMLAttributes<HTMLCanvasElement> {
   fps?: number;
@@ -103,8 +103,8 @@ interface IMyProps extends React.HTMLAttributes<HTMLCanvasElement> {
 const ReMatrix: React.FC<IMyProps> = ({
   fps = 60,
   fontSize = 15,
-  color = '#03A062',
-  bgColor = 'rgba(0, 0, 0, 0.065)',
+  color = "#03A062",
+  bgColor = "rgba(0, 0, 0, 0.065)",
   characters = myChars,
   width,
   height,
@@ -130,7 +130,7 @@ const ReMatrix: React.FC<IMyProps> = ({
       if (timer.current > nextFrame) {
         if (canvasRef.current && contextRef.current) {
           contextRef.current.fillStyle = bgColor;
-          contextRef.current.textAlign = 'center';
+          contextRef.current.textAlign = "center";
           contextRef.current.fillRect(
             0,
             0,
@@ -172,7 +172,7 @@ const ReMatrix: React.FC<IMyProps> = ({
         characters
       );
 
-      const context = canvas.getContext('2d');
+      const context = canvas.getContext("2d");
       if (context) {
         contextRef.current = context;
         context.font = `${effectRef.current.fontSize}px monospace`;
@@ -196,8 +196,8 @@ const ReMatrix: React.FC<IMyProps> = ({
         effectRef.current.resize(window.innerWidth, window.innerHeight);
       }
     };
-    window.addEventListener('resize', resize);
-    return () => window.removeEventListener('resize', resize);
+    window.addEventListener("resize", resize);
+    return () => window.removeEventListener("resize", resize);
   }, []);
 
   return <canvas ref={canvasRef} {...rest} />;
