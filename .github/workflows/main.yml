@@ -23,10 +23,13 @@ jobs:
         run: yarn install --frozen-lockfile
 
       - name: Lint
-        run: yarn lint
+        run: yarn lint --fix
 
       - name: Test
         run: yarn test --ci --coverage --maxWorkers=2
+
+      - name: Size
+        run: yarn size
 
       - name: Build
         run: yarn build
