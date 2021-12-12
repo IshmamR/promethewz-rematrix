@@ -1,6 +1,6 @@
 {
   "name": "@promethewz/rematrix",
-  "author": "IshmamR",
+  "author": "IshmamR <ishmam785@gmail.com> (https://portfolio.ishmams.xyz/)",
   "description": "A lightweight matrix animation component",
   "version": "1.0.0",
   "license": "MIT",
@@ -29,12 +29,6 @@
     "hooks": {
       "pre-commit": "tsdx lint"
     }
-  },
-  "prettier": {
-    "printWidth": 80,
-    "semi": true,
-    "singleQuote": true,
-    "trailingComma": "es5"
   },
   "module": "dist/rematrix.esm.js",
   "size-limit": [
@@ -75,5 +69,19 @@
       "last 2 safari version"
     ]
   },
-  "repository": {}
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/IshmamR/promethewz-rematrix.git"
+  },
+  "homepage": "https://github.com/IshmamR/promethewz-rematrix#readme",
+  "keywords": [
+    "matrix",
+    "animation",
+    "rematrix",
+    "promethewz"
+  ],
+  "bugs": {
+    "url": "https://github.com/IshmamR/promethewz-rematrix/issues",
+    "email": "ishmam785@gmail.com"
+  }
 }
