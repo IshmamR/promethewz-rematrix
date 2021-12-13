@@ -1,4 +1,4 @@
-# RE-MATRIX
+<div align="center"><h1>Re-Matrix</h1></div>
 
 <div align="center">
 
@@ -37,7 +37,7 @@ const App = () => (
 );
 ```
 
-### Propsdheke rakhba
+### Props
 
 | Name       | Type     | e.g.                                      |
 | ---------- | -------- | ----------------------------------------- |
@@ -53,7 +53,7 @@ const App = () => (
 
 ### TypeScript
 
-`@promethewz/rematrix` is written in TypeScript with complete definitions. :)
+`@promethewz/rematrix` is written in TypeScript with complete definitions :)
 
 ## ⌨️ Development
 
@@ -90,13 +90,13 @@ You can submit any ideas as [pull requests](https://github.com/IshmamR/promethew
 [react]: https://reactjs.org/
 [mit-img]: https://img.shields.io/github/license/IshmamR/promethewz-rematrix?style=plastic
 [mit-url]: ./LICENSE
-[npm-img]: https://img.shields.io/npm/v/@promethewz/rematrix.svg
+[npm-img]: https://img.shields.io/npm/v/@promethewz/rematrix.svg?style=plastic
 [npm-url]: https://www.npmjs.com/package/@promethewz/rematrix
-[download-img]: https://img.shields.io/npm/dt/@promethewz/rematrix.svg
+[download-img]: https://img.shields.io/npm/dt/@promethewz/rematrix.svg?style=plastic
 [download-url]: https://www.npmjs.com/package/@promethewz/rematrix
 [issue-img]: https://img.shields.io/github/issues/IshmamR/promethewz-rematrix?style=plastic
 [issue-url]: https://github.com/IshmamR/promethewz-rematrix/issues
 [fork-img]: https://img.shields.io/github/forks/IshmamR/promethewz-rematrix?style=plastic
 [fork-url]: https://github.com/IshmamR/promethewz-rematrix/fork
-[star-img]: https://img.shields.io/github/stars/IshmamR/promethewz-rematrix
+[star-img]: https://img.shields.io/github/stars/IshmamR/promethewz-rematrix?style=plastic
 [star-url]: https://github.com/IshmamR/promethewz-rematrix
