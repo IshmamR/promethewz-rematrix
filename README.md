@@ -1,4 +1,7 @@
-<div align="center"><h1>Re-Matrix</h1></div>
+<div align="center">
+<h1>Re-Matrix</h1>
+<img src="https://i.ibb.co/whQWkPh/matrix-ss.png" alt="matrix" />
+</div>
 
 <div align="center">
 
