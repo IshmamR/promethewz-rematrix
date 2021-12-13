@@ -4,7 +4,7 @@
 
 A lightweight matrix animation component
 
-[![NPM version][npm-img]][npm-url] [![NPM downloads][download-image]][download-url]
+[![NPM version][npm-img]][npm-url] [![NPM downloads][download-img]][download-url]
 [![Issues][issue-img]][issue-url] [![Forks][fork-img]][fork-url] [![Stars][star-img]][star-url]
 [![License: MIT][mit-img]][mit-url]
 
